@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .nav-link.active:hover {
+            background-color: #28a745;
+            color: #fff !important;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">ShAnGgAi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/BookATable">Book A Table</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <h3 class="text-center my-4">
+        <small class="text-success">We Invite You to Our Restaurant</small>
+    </h3>
+    <p class="text-secondary text-center">
+        <small>Welcome to a haven of flavors and unforgettable moments! At our restaurant, every dish tells a story, blending tradition with innovation. Come, indulge your senses and create cherished memories with us.</small>
+    </p>
+
+    <!-- Carousel Section -->
+    <div class="container my-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200" class="d-block w-100 rounded" alt="Food">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?w=1200" class="d-block w-100 rounded" alt="Food">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1494346480775-936a9f0d0877?w=1200" class="d-block w-100 rounded" alt="Food">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+
+    <!-- Card Section -->
+    <!-- Scrollable Dishes Section -->
+    <div class="container my-5">
+        <h4 class="text-center text-success mb-4">Explore Our Dishes</h4>
+        <div class="d-flex flex-row overflow-auto" style="gap: 1rem; padding: 0 1rem;">
+            <!-- Dish Card 1 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1597692493647-35763cb92183?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Dish 1">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Pasta</h5>
+                    <p class="card-text">A delightful mix of spices and pasta to tantalize your taste buds.</p>
+                </div>
+            </div>
+            <!-- Dish Card 2 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1657143375273-75371e23f7f0?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Dish 2">
+                <div class="card-body">
+                    <h5 class="card-title">Grilled Steak</h5>
+                    <p class="card-text">Perfectly grilled steak served with a side of fresh greens.</p>
+                </div>
+            </div>
+            <!-- Dish Card 3 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1633311151183-c92c4e306e5f?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Dish 3">
+                <div class="card-body">
+                    <h5 class="card-title">Vegan Salad</h5>
+                    <p class="card-text">A healthy mix of fresh vegetables and a zesty dressing.</p>
+                </div>
+            </div>
+            <!-- Dish Card 4 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://plus.unsplash.com/premium_photo-1675252371648-7a6481df8226?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Dish 4">
+                <div class="card-body">
+                    <h5 class="card-title">Cheeseburger</h5>
+                    <p class="card-text">A classic cheeseburger made with premium ingredients.</p>
+                </div>
+            </div>
+            <!-- Dish Card 5 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?w=500" class="card-img-top" alt="Dish 5">
+                <div class="card-body">
+                    <h5 class="card-title">Chocolate Cake</h5>
+                    <p class="card-text">Rich and decadent chocolate cake for dessert lovers.</p>
+                </div>
+            </div>
+            <!-- Dish Card 6 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://plus.unsplash.com/premium_photo-1707648137279-ac428840539c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2hyaW1wJTIwQ29ja3RhaWx8ZW58MHx8MHx8fDA%3Dw=500" class="card-img-top" alt="Dish 6">
+                <div class="card-body">
+                    <h5 class="card-title">Shrimp Cocktail</h5>
+                    <p class="card-text">Fresh shrimp served with a tangy cocktail sauce.</p>
+                </div>
+            </div>
+            <!-- Dish Card 7 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1663334038419-71e6f82e333f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8U3VzaGklMjBQbGF0dGVyfGVufDB8fDB8fHwww=500" class="card-img-top" alt="Dish 7">
+                <div class="card-body">
+                    <h5 class="card-title">Sushi Platter</h5>
+                    <p class="card-text">An assortment of fresh sushi rolls and sashimi.</p>
+                </div>
+            </div>
+            <!-- Dish Card 8 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1573821663912-6df460f9c684?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWFyZ2hlcml0YSUyMFBpenphfGVufDB8fDB8fHwww=500" class="card-img-top" alt="Dish 8">
+                <div class="card-body">
+                    <h5 class="card-title">Margherita Pizza</h5>
+                    <p class="card-text">A classic pizza with fresh mozzarella, basil, and tomato sauce.</p>
+                </div>
+            </div>
+            <!-- Dish Card 9 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1504649346668-2cc86afaa2e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TGFtYiUyMENob3BzfGVufDB8fDB8fHwww=500" class="card-img-top" alt="Dish 9">
+                <div class="card-body">
+                    <h5 class="card-title">Lamb Chops</h5>
+                    <p class="card-text">Tender lamb chops grilled to perfection.</p>
+                </div>
+            </div>
+            <!-- Dish Card 10 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1680588194311-6eb00e9c1e25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWFuZ28lMjBTbW9vdGhpZXxlbnwwfHwwfHx8MA%3D%3Dw=500" class="card-img-top" alt="Dish 10">
+                <div class="card-body">
+                    <h5 class="card-title">Mango Smoothie</h5>
+                    <p class="card-text">A refreshing mango smoothie to beat the heat.</p>
+                </div>
+            </div>
+            <!-- Dish Card 11 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://plus.unsplash.com/premium_photo-1668616816697-dbff40de499c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QkJRJTIwUmlic3xlbnwwfHwwfHx8MA%3D%3Dw=500" class="card-img-top" alt="Dish 11">
+                <div class="card-body">
+                    <h5 class="card-title">BBQ Ribs</h5>
+                    <p class="card-text">Smoked BBQ ribs with a side of coleslaw.</p>
+                </div>
+            </div>
+            <!-- Dish Card 12 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhZXNhciUyMFNhbGFkfGVufDB8fDB8fHwww=500" class="card-img-top" alt="Dish 12">
+                <div class="card-body">
+                    <h5 class="card-title">Caesar Salad</h5>
+                    <p class="card-text">Crisp romaine lettuce with Caesar dressing and croutons.</p>
+                </div>
+            </div>
+            <!-- Dish Card 13 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1623961990059-28356e226a77?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2VhZm9vZCUyMFBhZWxsYXxlbnwwfHwwfHx8MA%3D%3Dw=500" class="card-img-top" alt="Dish 13">
+                <div class="card-body">
+                    <h5 class="card-title">Seafood Paella</h5>
+                    <p class="card-text">A traditional Spanish dish packed with seafood flavors.</p>
+                </div>
+            </div>
+            <!-- Dish Card 14 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://plus.unsplash.com/premium_photo-1723575734758-97e6e862a670?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hpY2tlbiUyMEFsZnJlZG98ZW58MHx8MHx8fDA%3Dw=500" class="card-img-top" alt="Dish 14">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Alfredo</h5>
+                    <p class="card-text">Creamy Alfredo sauce with tender chicken and fettuccine.</p>
+                </div>
+            </div>
+            <!-- Dish Card 15 -->
+            <div class="card" style="min-width: 250px;">
+                <img src="https://images.unsplash.com/photo-1712262582533-dcf8deba14a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VGlyYW1pc3V8ZW58MHx8MHx8fDA%3Dw=500" class="card-img-top" alt="Dish 15">
+                <div class="card-body">
+                    <h5 class="card-title">Tiramisu</h5>
+                    <p class="card-text">An Italian dessert made with coffee-soaked ladyfingers and mascarpone.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- Video Embed -->
+    <div class="container my-5 text-center">
+        <h4 class="text-success mb-4">Watch Our Story</h4>
+        <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/1B28dg3r9N8" title="YouTube video" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <p>We are dedicated to offering you the best dining experience with world-class cuisines and warm hospitality.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Menu</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                        <li><a href="#" class="text-white text-decoration-none">Book a Table</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-uppercase">Contact</h5>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Flavor Town</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-envelope"></i> info@restaurant.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-3" style="background-color: rgba(255, 255, 255, 0.1);">
+            &copy; 2025 ShAnGgAi | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
